@@ -1,0 +1,13 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+
+
+train: ../datasets/NEU-DET/train/images
+val: ../datasets/NEU-DET/val/images
+test: ../datasets/NEU-DET/val/images
+
+
+# whether it is coco dataset, only coco dataset should be set to True.
+
+# Classes
+nc: 6  # number of classes
+names: ['crazing','inclusion','patches','pitted_surface','rolled-in_scale','scratches']  # class names
